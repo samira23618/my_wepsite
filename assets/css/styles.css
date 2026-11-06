@@ -1,0 +1,252 @@
+
+body {
+    font-family: 'Cairo', sans-serif, Tahoma, Arial;
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+header {
+    background-color: #eaecf7;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #495057;
+    margin-left: 10px;
+    transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+}
+
+.pagehero {
+    background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+    padding: 35px 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border-right: 5px solid #0d6efd;
+}
+
+.crumb {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.crumb a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.crumb a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card-img-top {
+    height: 190px;
+    object-fit: cover;
+}
+
+article.detail {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+article.detail img#detailImg {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.map {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px dashed #adb5bd;
+}
+
+.aside {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.aside label {
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.aside h2, .aside h3 {
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.aside p {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.aside hr {
+    border-color: #dee2e6;
+    margin: 20px 0;
+}
+
+.aside a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 4px;
+}
+
+.aside a:hover {
+    color: #0b5ed7;
+    text-decoration: underline;
+}
+
+.aside .note {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.contact-card h3 {
+    color: #0d6efd;
+    font-weight: bold;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+}
+
+.contact-card .form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.contact-card .form-control {
+    border-radius: 6px;
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+}
+
+.contact-card .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+.about-hero {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+    color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(13, 110, 253, 0.2);
+}
+
+.about-hero p {
+    color: #e0e7ff !important;
+}
+
+.team-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-top: 4px solid #0d6efd;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+.rules-card {
+    background-color: #ffffff;
+    border-right: 5px solid #198754;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.rules-card ul li {
+    margin-bottom: 10px;
+    position: relative;
+    line-height: 1.6;
+}
+
+#actionMsg, #contactMsg {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+footer {
+    background-color: #212529 !important;
+    border-top: 3px solid #0d6efd;
+}
+
+footer a {
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #0d6efd !important;
+}
+.student-project-banner {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #dee2e6;
+    border-right: 5px solid #0d6efd;
+}
+
+.student-badge {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.student-badge:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-color: #0d6efd !important;
+}
